@@ -20,15 +20,15 @@ const locations = [
   {
     name: "Mystical Siren tattoo",
     location: {
-      lat: 54.38048,
-      lng: 18.61348,
+      lat: 54.38043,
+      lng: 18.61350,
     },
   },
 ];
 
 const defaultCenter = {
-  lat: 54.38048,
-  lng: 18.61348,
+  lat: 54.38043,
+  lng: 18.61350,
 };
 
 const GoogleMapComponent = () => {
