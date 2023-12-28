@@ -1,4 +1,3 @@
-import GoogleMapComponent from './GoogleMapComponent';
 import {
   SectionBox,
   SectionBoxContent,
@@ -22,7 +21,7 @@ const SectionKontakt = () => (
             sdgggggggggggggggggggggggggggggsd Ludwika Waryńskiego 13, 80-433
             Gdańsk
           </TileDescription>
-          <GoogleMapComponent />
+         
         </SectionBoxContent>
       </Tile>
     </SectionBoxContent>
