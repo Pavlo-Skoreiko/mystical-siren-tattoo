@@ -1,17 +1,23 @@
-import './App.css';
+import { HashRouter } from 'react-router-dom';
 
-import logo from './logo.svg';
+import Container from './common/Container';
+import ContainerFoto from './common/ContainerFoto';
+import Header from './common/Header';
+import HeaderContainer from './common/HeaderContainer';
+import SectionKontakt from './common/SectionKontakt';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Mystical Siren tattoo</p>
-        <a className="App-link" target="_blank" rel="noopener noreferrer">
-          Launching Soon
-        </a>
-      </header>
+      <HashRouter>
+        <Header />
+
+        <HeaderContainer></HeaderContainer>
+        <Container />
+
+        <ContainerFoto />
+       <SectionKontakt></SectionKontakt>
+      </HashRouter>
     </div>
   );
 }
