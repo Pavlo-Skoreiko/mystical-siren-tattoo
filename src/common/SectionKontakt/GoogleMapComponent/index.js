@@ -20,33 +20,37 @@ const locations = [
   {
     name: "Mystical Siren tattoo",
     location: {
-      lat: 54.38075,
-      lng: 18.61408,
+      lat: 54.38048,
+      lng: 18.61348,
     },
   },
 ];
 
 const defaultCenter = {
-  lat: 54.38075,
-  lng: 18.61408,
+  lat: 54.38048,
+  lng: 18.61348,
 };
 
 const GoogleMapComponent = () => {
   return (
     <MapBox>
       <MapTitle>Ludwika Waryńskiego 13, 80-433 Gdańsk</MapTitle>
-      
-    <LoadScript googleMapsApiKey="AIzaSyAUsqKb7xFf3mi9QdrfjF84MnO-LR8JUiM">
-      <GoogleMap mapContainerStyle={mapStyles} zoom={16} center={defaultCenter}>
-        {locations.map((location, index) => (
-          <Marker
-            key={index}
-            position={location.location}
-            label={location.name}
-          />
-        ))}
-      </GoogleMap>
-    </LoadScript>
+
+      <LoadScript googleMapsApiKey="AIzaSyAUsqKb7xFf3mi9QdrfjF84MnO-LR8JUiM">
+        <GoogleMap
+          mapContainerStyle={mapStyles}
+          zoom={16}
+          center={defaultCenter}
+        >
+          {locations.map((location, index) => (
+            <Marker
+              key={index}
+              position={location.location}
+              label={location.name}
+            />
+          ))}
+        </GoogleMap>
+      </LoadScript>
     </MapBox>
   );
 };
