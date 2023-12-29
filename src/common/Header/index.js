@@ -1,4 +1,4 @@
-import video from '../../images/0231111130636.svg';
+import logo from '../../images/0231111130636.svg';
 import Navigation from './Navigation';
 import {
   HeaderField,
@@ -11,12 +11,12 @@ import {
 function Header() {
   return (
     
-      <SectionHeader>
+      <SectionHeader  >
         <SectionFild>
           <HeaderField>
-            <HeaderTitle href="/">
+            <HeaderTitle href="/#">
               <HeaderImage
-                src={video}
+                src={logo}
                 alt="Strona Główna"
                 width="100"
                 height="100"

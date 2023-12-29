@@ -53,6 +53,7 @@ export const TileContent = styled.div``;
 
 export const TileTitle = styled.header`
   font-size: 36px;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 24px;
 

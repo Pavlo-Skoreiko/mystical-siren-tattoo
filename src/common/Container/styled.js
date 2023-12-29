@@ -7,15 +7,12 @@ export const SectionBox = styled.div`
   background-color: ${({ theme }) => theme.color.whisper};
 `;
 
-export const SectionBoxContent = styled.div`
-  max-width: 1368px;
-  margin: auto;
-`;
+export const SectionBoxContent = styled.div``;
 
 export const Tile = styled.div`
   background: ${({ theme }) => theme.color.white};
   max-width: 1368px;
-  margin: 56px 0px;
+  margin: 0px 0px 0px 24px;
   padding: 40px;
   display: grid;
   gap: 0px 40px;
@@ -33,6 +30,7 @@ export const Tile = styled.div`
     grid-template-columns: minmax(auto, 114px) 1fr;
     gap: 0px 16px;
     padding: 16px;
+    margin: 0px;
   }
 `;
 
@@ -41,7 +39,6 @@ export const TileImage = styled.img`
   height: 464px;
   grid-row: span 2 / auto;
   border-radius: 5px;
-  box-shadow: 7px 8px 5px 0px rgba(160, 160, 160, 0.72);
 
   @media (max-width: 992px) {
     width: 215px;
@@ -54,12 +51,12 @@ export const TileImage = styled.img`
   }
 `;
 
-export const TileContent = styled.div``;
-
-export const TileTitle = styled.header`
+export const Title = styled.h2`
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 24px;
+  margin: 0px 0px 24px 0px;
 
   @media (max-width: 480px) {
     font-size: 13px;
@@ -71,9 +68,10 @@ export const TileTitle = styled.header`
   }
 `;
 
-export const TileDescription = styled.p`
+export const TileYear = styled.p`
   font-size: 22px;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
   color: rgb(24, 24, 27);
   margin: 0px 0px 24px;
 
@@ -85,5 +83,24 @@ export const TileDescription = styled.p`
     color: rgb(126, 131, 154);
     font-size: 13px;
     margin: 0px 0px 8px;
+  }
+`;
+
+export const TextContainer = styled.article`
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+
+  @media (max-width: 992px) {
+    font-size: 17px;
+    grid-area: 3 / span 2 / auto / auto;
+    margin-top: 24px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+    margin-top: 4px;
   }
 `;

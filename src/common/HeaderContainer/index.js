@@ -3,10 +3,10 @@ import HeaderTitle from './HeaderTitle';
 import { HeaderCistern } from './styled';
 
 const HeaderContainer = () => (
-  <HeaderCistern>
+  <HeaderCistern id="strona-glowna">
     <YourComponent />
     <HeaderTitle>
-            <a>Launching Soon</a>
+            
           </HeaderTitle>
   </HeaderCistern>
 

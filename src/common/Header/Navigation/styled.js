@@ -11,16 +11,17 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
   padding: 14px 24px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   transition: all 0.3s ease 0s;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
 
   @media (max-width: 992px) {
     padding: 8px 12px;
     margin: 0px 2px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 
   @media (max-width: 480px) {

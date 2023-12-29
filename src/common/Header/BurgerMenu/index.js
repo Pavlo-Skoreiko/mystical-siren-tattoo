@@ -4,10 +4,6 @@ import React, {
 } from 'react';
 
 import {
-  toMovieList,
-  toPeople,
-} from '../../../routes';
-import {
   CloseButton,
   Menu,
   MenuItem,
@@ -53,10 +49,10 @@ const BurgerMenu = () => {
       <Menu $isOpen={$isOpen}>
         <CloseButton onClick={closeMenu}>&times;</CloseButton>
        
-        <MenuItem to={toMovieList()} onClick={handleMenuClick}>Strona Główna</MenuItem>
-        <MenuItem to={toPeople()} onClick={handleMenuClick}>Nasze prace</MenuItem>
-        <MenuItem to={toMovieList()} onClick={handleMenuClick}>Kontakt</MenuItem>
-        <MenuItem to={toPeople()} onClick={handleMenuClick}>Kontakt</MenuItem>
+        <MenuItem to="#strona-glowna" onClick={handleMenuClick}>Strona Główna</MenuItem>
+        <MenuItem to="#nasz-prace" onClick={handleMenuClick}>Nasze prace</MenuItem>
+        <MenuItem to="#artist" onClick={handleMenuClick}>Artist</MenuItem>
+        <MenuItem to="#kontakt" onClick={handleMenuClick}>Kontakt</MenuItem>
       </Menu>
     </Wrapper>
   );

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Cistern = styled.main`
-  /* min-height: 25vh; */
   display: flex;
   flex-direction: column;
   align-items: center;

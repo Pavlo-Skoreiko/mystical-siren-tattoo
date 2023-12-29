@@ -7,11 +7,13 @@ import {
 } from './styled';
 
 const SectionKontakt = () => (
-  <SectionBox>
+  <SectionBox id="kontakt">
     <SectionBoxContent>
+    <TileTitle>Kontakt</TileTitle>
       <Tile>
+      
         <SectionBoxContent>
-          <TileTitle>Kontakt</TileTitle>
+          
           <TileDescription>
             sdddddddddddddddddgfsd sddddddddddddddddddddddddgsd
             sdgggggggggggggggggggggggggggggggggggggggggggggvvvvvsddddddddddddddddddddddddgsd

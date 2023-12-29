@@ -1,7 +1,3 @@
-import {
-  toMovieList,
-  toPeople,
-} from '../../../routes';
 import BurgerMenu from '../BurgerMenu';
 import {
   NavigationField,
@@ -15,16 +11,16 @@ function Navigation() {
     <StyledNavigation>
       <NavigationField>
         <NavigationItem>
-          <StyledNavLink  to={toMovieList()}>Strona Główna</StyledNavLink>
+          <StyledNavLink to="#strona-glowna">Strona Główna</StyledNavLink>
         </NavigationItem>
         <NavigationItem>
-          <StyledNavLink  to={toMovieList()}>Nasze prace</StyledNavLink>
+          <StyledNavLink to="#nasz-prace" >Nasze prace</StyledNavLink>
         </NavigationItem>
         <NavigationItem>
-          <StyledNavLink  to={toPeople()}>Kontakt</StyledNavLink>
+          <StyledNavLink to="#artist" >Artist</StyledNavLink>
         </NavigationItem>
         <NavigationItem>
-          <StyledNavLink  to={toPeople()}>Kontakt</StyledNavLink>
+          <StyledNavLink to="#kontakt" >Kontakt</StyledNavLink>
         </NavigationItem>
         <BurgerMenu/>
       </NavigationField>
