@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.js": "/mystical-siren-tattoo/static/js/main.100f61b6.js",
+    "main.js": "/mystical-siren-tattoo/static/js/main.dfe38823.js",
     "static/js/787.c631d8fc.chunk.js": "/mystical-siren-tattoo/static/js/787.c631d8fc.chunk.js",
+    "static/media/132318504.jpg": "/mystical-siren-tattoo/static/media/132318504.54021ca225bafaf3a303.jpg",
     "static/media/IMG_20230913_152516.jpg": "/mystical-siren-tattoo/static/media/IMG_20230913_152516.0376b79f3723de0ef09a.jpg",
+    "static/media/01335.png": "/mystical-siren-tattoo/static/media/01335.26018fd14489a96f4bbd.png",
+    "static/media/153831.png": "/mystical-siren-tattoo/static/media/153831.445c834b7a58195ccdfa.png",
+    "static/media/172514.png": "/mystical-siren-tattoo/static/media/172514.bd7b85dcccb6839bd150.png",
+    "static/media/151731.jpg": "/mystical-siren-tattoo/static/media/151731.543f7b158c20775a528e.jpg",
+    "static/media/094559.png": "/mystical-siren-tattoo/static/media/094559.c601129a7fde0b1fac28.png",
+    "static/media/172335.png": "/mystical-siren-tattoo/static/media/172335.55a594f2b69c4ac53517.png",
+    "static/media/152705.png": "/mystical-siren-tattoo/static/media/152705.0846d399f0650ea886cc.png",
+    "static/media/100550.png": "/mystical-siren-tattoo/static/media/100550.72aee74bd1d8c13a4845.png",
     "static/media/0231111130636.svg": "/mystical-siren-tattoo/static/media/0231111130636.48002ad299d84bbca8b3b501d7e64ed3.svg",
+    "static/media/091725.png": "/mystical-siren-tattoo/static/media/091725.aa701c3d05bbdaf349e0.png",
+    "static/media/144016.png": "/mystical-siren-tattoo/static/media/144016.0519e98c39317dfb1185.png",
     "static/media/s1200-4.jpg": "/mystical-siren-tattoo/static/media/s1200-4.cb225487240ae428ffb2.jpg",
+    "static/media/057_834.jpg": "/mystical-siren-tattoo/static/media/057_834.5adf2c3d04d759e78a02.jpg",
     "index.html": "/mystical-siren-tattoo/index.html",
-    "main.100f61b6.js.map": "/mystical-siren-tattoo/static/js/main.100f61b6.js.map",
+    "main.dfe38823.js.map": "/mystical-siren-tattoo/static/js/main.dfe38823.js.map",
     "787.c631d8fc.chunk.js.map": "/mystical-siren-tattoo/static/js/787.c631d8fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.100f61b6.js"
+    "static/js/main.dfe38823.js"
   ]
 }
